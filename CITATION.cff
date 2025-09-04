@@ -1,0 +1,12 @@
+# CITATION.cff
+cff-version: 1.2.0
+message: "If you use this RNA-seq pipeline in your research, please cite it as below."
+title: "RNA-seq Analysis Pipeline (From Reads to DEGs)"
+authors:
+  - family-names: "Jutt"
+    given-names: "Sarmad"
+    email: "sarmadjutt136@gmail.com"
+    affiliation: "Government College University, Faisalabad, Pakistan"
+date-released: 2025-09-04
+version: "1.0.0"
+url: "https://github.com/Mr-Sarmad/rnaseq-pipeline"

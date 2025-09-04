@@ -1,0 +1,15 @@
+samples:
+  - HS01
+  - HS02
+  - HS03
+  - HS04
+  - HS05
+  - CL08
+  - CL10
+  - CL11
+  - CL12
+  - CL13
+
+studydesign: "studydesign.txt"
+gmt_file: "refs/c2.cp.v2023.2.Hs.symbols.gmt"
+threads: 4

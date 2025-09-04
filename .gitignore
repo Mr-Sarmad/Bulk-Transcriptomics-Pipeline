@@ -1,0 +1,35 @@
+# Ignore raw FASTQ files
+*.fastq
+*.fastq.gz
+
+# Ignore alignment files
+*.sam
+*.bam
+*.bai
+
+# Ignore intermediate results
+*.log
+*.out
+*.err
+*.tmp
+*.tsv
+*.csv
+
+# Ignore large reference files (keep only small test references in repo)
+refs/*
+!refs/README.md   # allow readme in refs/
+
+# Ignore R and Python cache
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+
+# Ignore environment-related files
+*.snakemake
+.snakemake/
+*.conda
+
+# Ignore DAG images if not needed
+dag.pdf
