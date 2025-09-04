@@ -8,8 +8,8 @@ This pipeline takes you from **raw FASTQ reads → mapping → quantification �
 It is designed to be **computationally friendly**, meaning it can run efficiently on **minimal or low-spec systems** without requiring large HPC clusters. Perfect for lightweight setups or personal machines.
 🚀 **Key Features**
 - Supports **single-end** and **paired-end** reads.  
-- Works with **HISAT2** for alignment and **tximport** for quantification.  
-- Performs **DEG analysis** with DESeq2/edgeR.  
+- Works with **Kallisto** for alignment and **tximport** for quantification.  
+- Performs **DEG analysis** with DESeq2/limma.  
 - Includes **PCA, clustering, and enrichment analysis**.  
 - Lightweight – designed to run on **minimal or low-spec machines**.  
 
